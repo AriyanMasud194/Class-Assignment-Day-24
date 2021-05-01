@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.mid-content{
+    width: 1200px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.full-website {
+    width: 1350px;
+    margin: auto;
+}
+
+/* header-section */
+.header-section{
+    background: #22c3a3;
+    color: #fff;
+}
+.header-logo {
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+}
+.header-logo span {
+    float: left;
+    font-size: 28px;
+}
+.header-menu{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.header-menu ul{}
+.header-menu ul li {
+    display: inline-block;
+    margin: 0 18px;
+    line-height: 54px;
+}
+.header-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* banner-section */
+.banner-section {
+    background-image: url(./header-bg01.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 156px;
+    position: relative;
+    z-index: 999;
+}
+
+/* .banner-section::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background:rgba(13, 191, 155,.8);
+    z-index: -1;
+
+
+} */
+.banner-title {
+    text-align: center;
+    margin-left: -202px;
+}
+.banner-title h1 {
+    color: #fff;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+.banner-title p {
+    color: #fff;
+    font-size: 19px;
+    padding: 20px 0;
+}
+.button {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #ddd;
+    padding: 10px 15px;
+    margin-top: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+/* service-section */
+.service-section {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 2px solid #0dbf9b;
+    height: 362px;
+    margin-bottom: 30px;
+    color: #453a5a;
+}
+.service-section h1 {
+    font-weight: 500;
+}
+.service-section p {
+    margin-bottom: 59px;
+    margin-top: 20px;
+}
+.service {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.service i {
+    font-size: 35px;
+    margin: 24px 0;
+    color: #0dbf9b;
+}
+.service h3{}
+.service p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 9px;
+}
+
+/* about-section */
+.about-section {
+    color: #453a5a;
+    padding-bottom: 34px;
+}
+.heading {
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.paragraph {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 62px;
+}
+
+.image-left {
+    float: left;
+    width: 42%;
+}
+.image-left img {
+    width: 100%;
+    height: 342px;
+}
+.Content-right {
+    float: right;
+    width: 54%;
+}
+
+.first {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 9px;
+    margin-top: 8px;
+}
+.Content-right p {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+/* contact-section */
+.contact-section {
+    text-align: center;
+    background: #f6f6f6;
+    margin-top: 50px;
+}
+.contact-section h1 {
+    font-weight: 500;
+    padding-top: 61px;
+    margin-bottom: 30px;
+    color: #453a5a;
+}
+.contact-section p {
+    font-size: 15px;
+    margin-bottom: 57px;
+    line-height: 21px;
+    color: #453a5a;
+}
+.icons-div {
+    width: 972px;
+    margin: auto;
+}
+
+/* .icon {
+    float: left;
+    width: 33.3%;
+} */
+
+.one {
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+}
+.two{
+    width: 20%;
+    float: left;
+}
+.three{
+    width: 40%;
+    float: left;
+}
+.icon i {
+    color: #0dbf9b;
+    margin-bottom: 12px;
+}
+.icon p {
+    color: #453a5a;
+}
+
+/* footer-section */
+.footer-section {
+    background: #0dbf9b;
+    text-align: center;
+    padding: 21px 0;
+}
+
+.footer-section ul li{
+    display: inline-block;
+}
+.footer-section ul li a {
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* footer-bottom */
+
+.footer-bottom {
+    background: #222222;
+    text-align: center;
+    color: #433f46;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    font-size: 15px;
+}
